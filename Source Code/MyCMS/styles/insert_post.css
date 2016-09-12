@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+table{
+	background:#FFF;
+}
+td,tr{
+	padding: 0;
+	margin: 0;
+}
+.text{
+	text-align: right;
+	font:Arial, Helvetica, sans-serif;
+	font-weight:lighter;
+	color: #000;
+}
+td.text:nth-child(odd){
+	 background:#FFC;
+}
+td.putHere{
+	size: 80px;
+}
+h1{color: #FFFFFF;
+}
+input[type=submit]{
+	background: #FFC;
+	padding:5px;
+	margin: 5px;
+	font: 14px lighter Arial, Helvetica, sans-serif ;
+	border-radius:5px 5px 5px 5px;
+}
+input[type=text]{
+	padding: 4px;
+	width: 200px;
+	background: #CCC;
+	border-radius:0px 5px 5px 0px;
+}
+input[type=text]:focus{
+	background:#FFF;
+}
+input[type=submit]:hover{
+	background-color:#FF9;
+	cursor: pointer;
+	text-decoration:underline;
+	color: #033;
+}
+
+*.error {
+	font: 12px lighter Arial, Helvetica, sans-serif;
+	color: red;
+}
+

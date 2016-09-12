@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background:#75a0d5;
+}
+.wrapper{
+	width: 1000px;
+	margin: auto;
+}
+#header{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:24px;
+	height: 100px;
+	width: 1000px;
+	background:url("../images/banner.jpg");
+	border-bottom: 5px groove #F60;
+}
+.left{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font 18px;
+	font-weight: bold;
+	color: #FFF;
+	background:rgb(0, 51, 102);
+	text-align: right;
+	float: left;
+	height: 800px;
+	width: 200px;
+	border-right: 5px groove #F60;
+}
+.left p{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 15px;
+	text-align: right;
+	padding: 10px;
+	margin-bottom: 4px;
+	font-weight:lighter;
+	
+	
+}
+.left p a{
+	text-decoration: none;
+	color:#666;
+}
+.left p a:hover{
+	text-decoration:underline;
+	color: green;
+}
+.left a:visited{
+	color:#FFC;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+.right{
+	font-family:"Comic Sans MS", cursive;
+	color:#CCC;
+	background:#FFF;
+	width: 795px;
+	height: 800px;
+	float: left;
+	
+}

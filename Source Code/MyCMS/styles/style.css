@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	
+
+}
+.container {
+	max-width: 900px;
+	/*background:#E6EDF6;*/
+	margin: auto;
+
+}
+.head{
+	height: 100px;
+	background:#FFFFFF;
+}
+#logo {
+	width: 26.09%;
+	height: 100px;
+	float: left;
+	
+}
+#banner {
+	width: 62.63%;
+	height: 100px;
+	float: right;
+}
+/*head ends here*/
+.navbar {
+	background-color: #000;
+	height: 50px;
+	line-height: 50px;
+}
+#menu {
+	float: left;
+	width:73%;
+}
+#menu li {
+	list-style-type: none;
+	display: inline-block;	
+}
+#menu a {
+	text-decoration: none;
+	font-size: 0.9375em;
+	margin: 7px;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+}
+#menu a:hover {
+	color:#DAA520;
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*#menu ends here */
+#form{
+	float: left;
+	width:27%;
+}
+/*#form ends here*/
+/*navbar ends here*/
+.post_area {
+	width: 74%;
+	float: left;
+	padding:10px 10px 10px 0px;
+	border: 1px solid #ddd;
+	background:#75a0d5;
+}
+.post_area .post_head{
+	color: #FFFFFF;
+	background: rgb(0, 51, 102);
+	font: 20px lighter Tahoma, Geneva, sans-serif;
+	line-height: 36px;
+	text-align: center;
+}
+.post_area .img_content{
+	width:119px;
+	float:left;
+	height: 110px;
+	padding: 10px;
+	background-color:#FFFFFF;
+	margin: 5px 0px 5px 0px;
+	
+}
+.img_content img{
+	width: 116.75px;
+	height: 98px;
+	border: 1px solid #ddd;
+	
+}
+.post_area .content{
+	width: 77.50%;
+	height: 110px;
+	padding: 10px 10px 10px 0px;
+	float: left;
+	background-color: #F7F7F9;
+	margin: 5px 0px;
+	
+}
+.content .headline{
+	font: 16px   Arial, Helvetica, sans-serif;
+	color: #00008B;
+
+}
+.adrs{
+	font: 13px  Arial, Helvetica, sans-serif;
+	color: blue;
+	font-style:normal;
+}
+.emp{
+	font: 13px  Arial, Helvetica, sans-serif;
+	color: #FF0000;
+	font-style:italic;
+}
+.content .post_content{
+	height: 57px;
+	overflow: hidden;
+}
+.content a{
+	float: right;
+	font: 10px lighter Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	border: 1px solid #ddd;
+	
+}
+.content a:hover{
+	text-decoration: underline;
+	color: Green;
+}
+/*post_area ends here*/
+
+
+/*sidebar starts here*/
+.sidebar {
+	width: 22%;
+	padding: 10px 0px 10px 10px;
+	float: right;
+	border: 1px solid #ddd;
+}
+.sidebar .post_head{
+	color: #FF0000;
+	background: rgb(0, 51, 102);
+	font: 20px lighter Tahoma, Geneva, sans-serif;
+	line-height: 36px;
+	text-align: center;
+
+}
+.sidebar .img_content{
+	padding: 15px;
+	background:white;
+	margin-bottom: 10px;
+	width: 135px;
+	height: 100px;
+}
+.sidebar img{
+	width: 116.75px;
+	height: 98px;
+	border: 1px solid #ddd;
+	margin-left: 8px;
+	
+}
+.sidebar .content{
+	background:#CCC;
+	overflow: hidden;
+	height: 20px;
+}
+.sidebar .headline{
+	font: 14px lighter Arial, Helvetica, sans-serif;
+	color: #0099FF;
+	text-align: center;
+    line-height: 20px;
+}
+.sidebar a{
+	text-decoration:none;
+}
+/*sidebar ends here*/
+
+
+/*middle_content starts here*/
+.middle_content{
+	height: 800px;
+	background: red;
+	float: left;
+	width: 37%;
+	padding: 10px 5px;
+}
+/*footer starts here*/
+.footer_area {
+	padding: 50px;
+	background: #000;
+	color: #FFF;
+	clear: both;
+	text-align: center;
+	font: 16px lighter Arial, Helvetica, sans-serif;
+}
+/* div class comment starts here*/
+.comment{
+	background:#FFFFFF; 
+	margin-top: 5px;
+	padding: 10px;
+}
+.comment table{
+	width: 100%;
+	background: #FFC;
+}
+.comment input[type=submit]{
+	padding:10px;
+	margin: 10px 0px 10px 200px;
+	background: #006;
+	color: #FFFFFF;
+}
+.comment input[type=submit]:hover{
+	background:#00F;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
